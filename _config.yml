@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Actors Community Theater of Seymour
+short_title: Seymour ACTS
 email: seymour-acts@gmail.com
 description: Seymour ACTS
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,7 +23,7 @@ repository: seymour-acts/seymour-acts.github.io.git
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-leap-day
+# theme: none
 gems:
   - jekyll-feed
 exclude:

@@ -1,0 +1,15 @@
+- label: Home
+  permalink: /
+
+- label: Productions
+  permalink: /seasons/
+
+- label: Join Us
+  permalink: /join/
+
+- label: Contact Us
+  permalink: /contact/
+
+- label: About
+  permalink: /about/
+

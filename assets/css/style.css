@@ -1,0 +1,202 @@
+@font-face {
+	font-family: lobster2;
+	src: url('/assets/fonts/lobster2.otf');
+}
+
+* { margin: 0px; padding: 0px; border: none; }
+
+html { background-color: #FFFF80; }
+
+#body {
+  position: relative;
+  margin: 1em auto;
+  width: 800px;
+
+  font-family: Calibri;
+}
+
+#header {
+  margin: 30px 0px;
+
+  text-align: center;
+  font-family: lobster2;
+  font-size: 275%;
+}
+
+#main {
+  margin: 20px auto;
+  width: 90%;
+}
+
+#footer {
+  margin: 40px auto 10px;
+}
+
+a {
+  color: #265701;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 16px;
+
+  font-family: lobster2;
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  font-size: 200%;
+}
+
+h4 {
+  border-bottom: 1px solid #51BD00;
+
+  font-size: 125%;
+}
+
+h5 {
+  margin: 16px 32px 4px;
+
+  font-weight: bold;
+  font-size: 115%;
+}
+
+h6 {
+  margin: 16px 32px;
+
+  font-weight: bold;
+  font-size: 115%;
+  text-decoration: underline;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+  margin: 16px 8px;
+  padding-left: 20px;
+}
+
+li {
+  padding-left: 2em;
+
+  list-style-type: none;
+}
+
+table {
+  margin: 0px auto;
+  padding: 2px;
+}
+
+table td {
+  display: inline-block;
+  margin: 2px 4px;
+  min-width: 5em;
+  min-height: 5em;
+
+  background-color: #51BD00;
+}
+
+table td:hover {
+  background-color: #72CE00;
+}
+
+.bold { font-weight: bold; }
+
+.align {
+  position: relative;
+  overflow: hidden;
+}
+
+.align .outer {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+.align .inner {
+  position: relative;
+  left: -50%;
+}
+
+.alignClear {
+	clear: both;
+}
+
+.horizontalRule {
+  margin: 40px auto;
+  width: 35%;
+
+  border-top: 1px solid #51BD00;
+}
+#footer .horizontalRule { width: 80%; }
+
+#mainMenu { margin: 0px; }
+
+#mainMenu a {
+  display: inline-block;
+  margin: 2px 1px;
+  padding: 0.25em 2em;
+  min-width: 80px;
+
+  background-color: #1C4000;
+  border: groove 1px #FFFF48;
+
+  color: #FFFF00;
+  text-decoration: none;
+  text-align: center;
+}
+
+#mainMenu a:hover {
+  background-color: #265701;
+  color: #FFFF48;
+  border: groove 1px #DDDD36;
+}
+
+.picture {
+	max-width: 400px;
+}
+
+.showInfo {
+  margin-bottom: 16px;
+  padding: 8px 8px 32px;
+  background-color: #FFFFFF;
+  border: solid #000000 1px;
+}
+
+.postalAddress {
+  padding-left: 2em;
+  font-weight: bold;
+}
+
+@media (max-device-width: 800px) {
+  #body {
+    width: 90%;
+  }
+
+  #header {
+    margin: 5px 0px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 16px 4px 0px;
+  }
+
+  p {
+    margin: 8px 4px;
+    padding-left: 10px;
+  }
+
+  #mainMenu a {
+    display: block;
+    margin: 2px 1px;
+    padding: 0.25em 2em;
+    min-width: 80px;
+
+    font-size: 250%;
+  }
+}
+
+noscript {
+	text-align: center;
+}
