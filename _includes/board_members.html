@@ -1,0 +1,11 @@
+<h4>Current Board Members</h4>
+<ul>
+  {% for member in site.data.board_members %}
+    <li>
+      {% if member.position %}
+        {{ member.position }} - 
+      {% endif %}
+      {{ member.name }}
+    </li>
+  {% endfor %}
+</ul>
