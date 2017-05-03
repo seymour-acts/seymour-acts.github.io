@@ -46,17 +46,16 @@ permalink: /about/
   <h3>Southern Indiana Theatre Alliance</h3>
   <p>
     In an effort to unite theatre-lovers around the region, the Southern Indiana Theatre Alliance was created in 2013. The community theatre groups that are involved in the Alliance help promote each other's auditions, shows, and fundraisers, as well as participate in a friendly competition. Each group may submit two of their shows to be adjudicated by the other theaters for technical and artistic critique. The Alliance hosts an annual gathering of the groups to honor all the shows and actors that were nominated for the various categories, much like the Tony Awards that many of us wish could attain. The following groups are the current participating Allies:
-    <ul data-bind="foreach: allyGroups">
-      <li>
-        <!-- ko if: url -->
-          <a data-bind="attr: { href: url }">
-            <span data-bind="text: name"></span>
-          </a>
-        <!-- /ko -->
-        <!-- ko if: !url -->
-          <span data-bind="text: name"></span>
-        <!-- /ko -->
-      </li>
+    <ul>
+      {% for ally_group in site.data.ally_groups %}
+        <li>
+          {% if ally_group.url %}
+            <a href="{{ ally_group.url }}">{{ ally_group.name }}</a>
+          {% else %}
+            {{ ally_group.name }}
+          {% endif %}
+        </li>
+      {% endfor %}
     </ul>
   </p>
   <p>
