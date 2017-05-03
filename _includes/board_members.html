@@ -2,10 +2,10 @@
 <ul>
   {% for member in site.data.board_members %}
     <li>
-      {% if member.position %}
-        {{ member.position }} - 
-      {% endif %}
       {{ member.name }}
+      {% if member.position %}
+        — {{ member.position }}
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
