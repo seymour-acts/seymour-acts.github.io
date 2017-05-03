@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% assign season = page %}
+
+<h3>{{ season.title }}</h3>
+
+<div class="section">
+  {% for production in season.productions %}
+    <div class="showInfo">
+      <h4>{{ production.title }}</h4>
+      <p>
+        {{ production.time }}<br />
+        {% assign place = site.data.places[production.place_key] %}
+        {% if place %}
+          <a href="{{ place.url }}">{{ place.name }}</a>
+        {% endif %}
+      </p>
+
+      {% if production.description %}
+        <p>{{ production.description }}</p>
+      {% endif %}
+
+      {% if production.crew_roles %}
+        <h5>Crew</h5>
+        <ul>
+          {% for crew_role in production.crew_roles %}
+            <li>{{ crew_role.name }} — {{ crew_role.role }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if production.cast_roles %}
+        <h5>Cast</h5>
+        <ul>
+          {% for cast_role in production.cast_roles %}
+            <li>{{ cast_role.name }} — {{ cast_role.role }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

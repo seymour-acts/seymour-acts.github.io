@@ -21,6 +21,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://seymour-acts.github.io"
 repository: seymour-acts/seymour-acts.github.io.git
 
+collections:
+  seasons:
+    output: true
+    permalink: /:collection/:name/
+
 # Build settings
 markdown: kramdown
 # theme: none
