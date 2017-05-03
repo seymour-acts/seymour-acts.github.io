@@ -4,64 +4,62 @@ title: About
 permalink: /about/
 ---
 
-<div id="content">
-  <h3>About Us</h3>
+<h3>About Us</h3>
 
-  <div class="section">
-    <h4>Our Mission Statement</h4>
-    <p>
-      The mission of Actors Community Theater of Seymour is to promote, encourage, educate, and inspire the dramatic and musical arts to all people regardless of age, race, creed, sexual orientation, and ability; and to provide worthwhile recreation, entertainment, and expression of talent in Seymour, Indiana, and the surrounding communities.
-    </p>
-  </div>
+<div class="section">
+  <h4>Our Mission Statement</h4>
+  <p>
+    The mission of Actors Community Theater of Seymour is to promote, encourage, educate, and inspire the dramatic and musical arts to all people regardless of age, race, creed, sexual orientation, and ability; and to provide worthwhile recreation, entertainment, and expression of talent in Seymour, Indiana, and the surrounding communities.
+  </p>
+</div>
 
-  <div class="section">
-    {% include board_members.html %}
-  </div>
+<div class="section">
+  {% include board_members.html %}
+</div>
 
-  <div class="section">
-    <h3>Our Beginnings</h3>
-    <p>
-      The Actors Community Theater of Seymour was founded by Mich &amp; Michele Callahan and Betty &amp; Kat Baute on July 1, 2013.
-    </p>
-    <p>
-      "I wanted a theater that would express all types of talent and involve as much of our community as I could, young and old alike. I wanted to inspire a new age of theatre in the hearts and minds of today's world. I want our community to know that the arts are still alive and well, and that we encourage the freedom to try something new or different from the norm." - Mich Callahan
-    </p>
-    <p>
-      In an attempt to better utilize the largely untapped theatrical resources for the community of Seymour and its surrounding area, the four founders met at a local restaurant one day to brainstorm. The idea of a new community theatre began to take on life, and on July 1, 2013, that dream came true.
-    </p>
-    <p>
-      "The best part is that we all have different visions with the same end goals.  That is what makes this such a unique group." - Mich Callahan
-    </p>
-    <p>
-      Interest began exploding in Seymour as friends of theatre from all walks of life showed an interest in what was forming.
-    </p>
-    <p>
-      “We started by keeping it quiet until we could get more organized, but the moment we started letting people know what we were planning, we had supporters all around us.” - Kat Baute
-    </p>
-    <p>
-      The group began building its network of enthusiasts, including actors, directors, construction and technical experts, local business partners, and patrons. ACTS's first season included two roaring comedies, and so the journey began! Join us to be part of something creative, educational, inspiring, and most of all entertaining. "Because if something isn't fun, what's the point in doing it?" - Mich Callahan, first president of ACTS
-    </p>
-  </div>
+<div class="section">
+  <h3>Our Beginnings</h3>
+  <p>
+    The Actors Community Theater of Seymour was founded by Mich &amp; Michele Callahan and Betty &amp; Kat Baute on July 1, 2013.
+  </p>
+  <p>
+    "I wanted a theater that would express all types of talent and involve as much of our community as I could, young and old alike. I wanted to inspire a new age of theatre in the hearts and minds of today's world. I want our community to know that the arts are still alive and well, and that we encourage the freedom to try something new or different from the norm." - Mich Callahan
+  </p>
+  <p>
+    In an attempt to better utilize the largely untapped theatrical resources for the community of Seymour and its surrounding area, the four founders met at a local restaurant one day to brainstorm. The idea of a new community theatre began to take on life, and on July 1, 2013, that dream came true.
+  </p>
+  <p>
+    "The best part is that we all have different visions with the same end goals.  That is what makes this such a unique group." - Mich Callahan
+  </p>
+  <p>
+    Interest began exploding in Seymour as friends of theatre from all walks of life showed an interest in what was forming.
+  </p>
+  <p>
+    “We started by keeping it quiet until we could get more organized, but the moment we started letting people know what we were planning, we had supporters all around us.” - Kat Baute
+  </p>
+  <p>
+    The group began building its network of enthusiasts, including actors, directors, construction and technical experts, local business partners, and patrons. ACTS's first season included two roaring comedies, and so the journey began! Join us to be part of something creative, educational, inspiring, and most of all entertaining. "Because if something isn't fun, what's the point in doing it?" - Mich Callahan, first president of ACTS
+  </p>
+</div>
 
-  <div class="section">
-    <h3>Southern Indiana Theatre Alliance</h3>
-    <p>
-      In an effort to unite theatre-lovers around the region, the Southern Indiana Theatre Alliance was created in 2013. The community theatre groups that are involved in the Alliance help promote each other's auditions, shows, and fundraisers, as well as participate in a friendly competition. Each group may submit two of their shows to be adjudicated by the other theaters for technical and artistic critique. The Alliance hosts an annual gathering of the groups to honor all the shows and actors that were nominated for the various categories, much like the Tony Awards that many of us wish could attain. The following groups are the current participating Allies:
-      <ul data-bind="foreach: allyGroups">
-        <li>
-          <!-- ko if: url -->
-            <a data-bind="attr: { href: url }">
-              <span data-bind="text: name"></span>
-            </a>
-          <!-- /ko -->
-          <!-- ko if: !url -->
+<div class="section">
+  <h3>Southern Indiana Theatre Alliance</h3>
+  <p>
+    In an effort to unite theatre-lovers around the region, the Southern Indiana Theatre Alliance was created in 2013. The community theatre groups that are involved in the Alliance help promote each other's auditions, shows, and fundraisers, as well as participate in a friendly competition. Each group may submit two of their shows to be adjudicated by the other theaters for technical and artistic critique. The Alliance hosts an annual gathering of the groups to honor all the shows and actors that were nominated for the various categories, much like the Tony Awards that many of us wish could attain. The following groups are the current participating Allies:
+    <ul data-bind="foreach: allyGroups">
+      <li>
+        <!-- ko if: url -->
+          <a data-bind="attr: { href: url }">
             <span data-bind="text: name"></span>
-          <!-- /ko -->
-        </li>
-      </ul>
-    </p>
-    <p>
-      If you or anyone you know is interested in learning more about or joining the Alliance, please <a href="{{ site.baseurl }}/contact/">contact us</a>.
-    </p>
-  </div>
+          </a>
+        <!-- /ko -->
+        <!-- ko if: !url -->
+          <span data-bind="text: name"></span>
+        <!-- /ko -->
+      </li>
+    </ul>
+  </p>
+  <p>
+    If you or anyone you know is interested in learning more about or joining the Alliance, please <a href="{{ site.baseurl }}/contact/">contact us</a>.
+  </p>
 </div>

@@ -2,14 +2,12 @@
 layout: page
 ---
 
-<div id="content">
-  <h3>Latest News</h3>
+<h3>Latest News</h3>
 
-  {% for post in site.posts %}
-    <div class="section">
-      <h4>{{ post.date | date: '%B %e, %Y' }}</h4>
+{% for post in site.posts %}
+  <div class="section">
+    <h4>{{ post.date | date: '%B %e, %Y' }}</h4>
 
-      {{ post.content }}
-    </div>
-  {% endfor %}
-</div>
+    {{ post.content }}
+  </div>
+{% endfor %}
