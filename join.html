@@ -1,0 +1,75 @@
+---
+layout: page
+title: Join Us
+permalink: /join/
+# TODO host downloadable files elsewhere and link to them from here
+---
+
+<h3>Join Us</h3>
+
+<div class="section">
+  <p>
+    Are you looking to put some extra drama in your life? Become a part of ACTS! We offer a variety of ways to get involved in your local community theater -- no experience required!
+  </p>
+
+  <h4>Become an ACTS Member</h4>
+  <p>
+    Our members are our driving force; without them, we would have no reason for being. Purchasing a tax-deductible membership helps ACTS to produce our plays, providing our community with quality entertainment and sustaining the Fine Arts in our area. For more information, please read
+    <a href="/assets/files/acts-2015-membership-letter.pdf">this letter</a>
+    from the ACTS Board President, Betty Baute, which offers details on the benefits of becoming a Member.
+  </p>
+  <p>
+    To become a Member, please print and fill out
+    <a href="/assets/files/acts-membership-form.pdf">this membership form</a>
+    and mail it with your payment to us at:
+    {% include postal_address.html %}
+  </p>
+  <p>
+    Looking for other ways to help? We also accept one-time donations, both monetary and material! All donations made to ACTS are tax-deductible; receipts for tax purposes will be provided.
+  </p>
+</div>
+
+<div class="section">
+  <h4>Advertise with ACTS</h4>
+  <p>
+    Need a boost for your business? Consider advertising in our program or becoming a Table Sponsor for our dinner theatre productions! Purchasing an
+    <a href="/assets/files/acts-program-ads.pdf">advertisement</a>
+    in our program costs as little as $35 with discounts for larger ads. Every advertisement runs in our programs for our entire season, letting our audiences know that you support your local community theater group.
+  </p>
+  <p>
+    <ul>
+      {% for ad_type in site.data.ad_types %}
+        <li>{{ ad_type.size }}, {{ ad_type.color }}: {{ ad_type.price }}</li>
+      {% endfor %}
+    </ul>
+  </p>
+  <p>
+    If you're looking for a special way to draw attention to your business, consider becoming an ACTS Table Sponsor! Advertise your business by decorating a table for our patrons, including but not limited to business cards, pens, gadgets, flyers, coupons, or even a private butler -- whatever your imagination holds. Each $50 sponsorship allows you to dress up your table-for-eight for all four nights of our production, and we will include your business in our opening acknowledgments to make sure the entire audience is aware of your support for ACTS!
+  </p>
+  <p>
+    For more information or to advertise with ACTS, please contact Board Secretary Kat Baute at katbaute.ACTS@gmail.com.
+  </p>
+</div>
+
+<div class="section">
+  <h4>Volunteer with ACTS</h4>
+  <p>
+    Every theatre production needs volunteers! We welcome all kinds of volunteers, no experience necessary!
+  </p>
+  <p>
+    Want to be onstage? Come to auditions! We're always looking for more actors, even if you've never set foot in the limelight before.
+  </p>
+  <p>
+    Are you looking to turn director? Consider being an assistant director, or propose a show for our next season! Even if you'd like to see ACTS put on your favorite play but don't care to direct it yourself, feel free to
+    <a href="/assets/files/director-proposal-form.pdf">submit a proposal</a>.
+  </p>
+  <p>
+    Are you handy with a hammer, drill, or paintbrush, or eager to learn? Join us for set-building days just before our shows!
+  </p>
+  <p>
+    Do you want to learn how to run the lights and sound? Work with our experts to discover the wonders of being a techie!
+  </p>
+  <p>
+    Do you want to be involved but have a limited amount of time? Become an usher or volunteer to help with our next fundraiser!
+  </p>
+</div>
