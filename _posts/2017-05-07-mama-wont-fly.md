@@ -18,6 +18,6 @@ Tickets are $12/person and may be purchased at the door or online in advance; on
 Robin Nolan as Mama  
 Kat Baute as Savannah  
 Elyse McGill as Hayley  
-Vickey Oliphant, Cory Watson, and more as the various kooky characters
+Vickey Oliphant, Cory Watson, Jeremy Kinnett, and more as the various kooky characters
 
 Produced by special permission from Dramatists Play Service, Inc.
