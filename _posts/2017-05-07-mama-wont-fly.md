@@ -14,10 +14,10 @@ Performances will be Friday & Saturday, June 16-17 & 23-24, with the doors openi
 Tickets are $12/person and may be purchased at the door or online in advance; online ticket sales will start soon. For more information, please call or text 812-498-2127 or email katbaute.acts@gmail.com.
 
 **Director:** Betty Baute  
-**Cast:**
-Robin Nolan as Mama
-Kat Baute as Savannah
-Elyse McGill as Hayley
+**Cast:**  
+Robin Nolan as Mama  
+Kat Baute as Savannah  
+Elyse McGill as Hayley  
 Vickey Oliphant, Cory Watson, and more as the various kooky characters
 
 Produced by special permission from Dramatists Play Service, Inc.
