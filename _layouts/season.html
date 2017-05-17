@@ -14,7 +14,11 @@ layout: default
         {{ production.time }}<br />
         {% assign place = site.data.places[production.place_key] %}
         {% if place %}
-          <a href="{{ place.url }}">{{ place.name }}</a>
+          {% if place.url %}
+            <a href="{{ place.url }}">{{ place.name }}</a>
+          {% else %}
+            {{ place.name }}
+          {% endif %}
         {% endif %}
       </p>
 
@@ -38,6 +42,13 @@ layout: default
             <li>{{ cast_role.name }} — {{ cast_role.role }}</li>
           {% endfor %}
         </ul>
+      {% endif %}
+
+      {% if production.extras %}
+        {% for extra in production.extras %}
+          <h5>{{ extra.title }}</h5>
+          {{ extra.content }}
+        {% endfor %}
       {% endif %}
     </div>
   {% endfor %}
