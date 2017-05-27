@@ -3,7 +3,7 @@ layout: post
 tags: [2017, show, mama-wont-fly]
 ---
 
-## ANNOUNCEMENT: Production Postponed & Replaced
+## Announcement: Production Postponed & Replaced
 
 Due to a cast emergency, "Mama Won't Fly" by Jones/Hope/Wooten has been postponed. The new dates will be September 8-9 & 15-16, 2017.
 
