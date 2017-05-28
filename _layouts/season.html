@@ -53,6 +53,12 @@ layout: default
           {{ extra.content }}
         {% endfor %}
       {% endif %}
+
+      {% if production.facebook_url %}
+        <p>
+          <a href="production.facebook_url">See the Facebook event!</a>
+        </p>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
