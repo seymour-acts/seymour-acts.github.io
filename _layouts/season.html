@@ -11,6 +11,9 @@ layout: default
     <div class="showInfo">
       <h4>{{ production.title }}</h4>
       <p>
+        {% if production.byline %}
+          {{ production.byline }}<br />
+        {% endif %}
         {{ production.time }}<br />
         {% assign place = site.data.places[production.place_key] %}
         {% if place %}
