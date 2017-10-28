@@ -13,4 +13,4 @@ Tickets are $12/person and may be purchased at the door or [online](https://seym
 
 Directed by Elyse McGill. Starring Amanda Bott, Cory Watson, Tim Gordon, Ashley Browning, Hannah McGill. Produced with special permission by Samuel French, Inc. Sponsored by Aaron's of Seymour, the National Endowment for the Arts, Indiana Arts Commission, and Columbus Area Arts Council.
 
-![Poster for Kosher Lutherans]({% link '/assets/images/kl-poster.jpg' %})
+![Poster for Kosher Lutherans]({% link /assets/images/kl-poster.jpg %})
