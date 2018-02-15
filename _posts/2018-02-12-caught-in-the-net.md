@@ -12,3 +12,5 @@ The sequel to Run for Your Wife, which ACTS performed in 2016, finds the bigamis
 Tickets are $12/person and may be purchased at the door or [online](https://seymouracts.ticketleap.com/citn/). For more information, please call or text 812-498-2127 or email [katbaute.acts@gmail.com](mailto:katbaute.acts@gmail.com).
 
 Directed by Oscar Jimenez. Produced with special permission by Samuel French, Inc. Sponsored by the Indiana Arts Commission, Art Works, National Endowment for the Arts, and Columbus Area Arts Council.
+
+![Poster for Kosher Lutherans]({% link /assets/images/citn-poster.jpg %})
